@@ -17,12 +17,15 @@ const NavHeader = (): JSX.Element => {
         <div className="social-icons">
           <a href="https://github.com/eruby94" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'github']} size="2x" color={colors.white} />
+            <span className="visible-hidden">GitHub</span>
           </a>
           <a href="https://soundcloud.com/scruby_doo" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'soundcloud']} size="2x" color={colors.white} />
+            <span className="visible-hidden">SoundCloud</span>
           </a>
           <a href="https://www.linkedin.com/in/evanruby/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" color={colors.white} />
+            <span className="visible-hidden">LinkedIn</span>
           </a>
         </div>
       </div>
