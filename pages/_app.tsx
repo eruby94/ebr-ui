@@ -52,6 +52,8 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <>
       <Head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet" />
+        <link href="https://www.google-analytics.com" rel="preconnect" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -69,20 +71,6 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         @font-face {
           src: url('/fonts/AldotheApache.ttf');
           font-family: 'AldoTheApache';
-        }
-        @font-face {
-          src: url('/fonts/OpenSans-Regular.ttf');
-          font-family: 'Open Sans';
-        }
-        @font-face {
-          src: url('/fonts/OpenSans-Bold.ttf');
-          font-family: 'Open Sans';
-          font-weight: 700;
-        }
-        @font-face {
-          src: url('/fonts/OpenSans-SemiBold.ttf');
-          font-family: 'Open Sans';
-          font-weight: 600;
         }
         body {
           margin: 0;

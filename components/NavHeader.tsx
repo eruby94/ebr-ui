@@ -19,7 +19,7 @@ const NavHeader = (): JSX.Element => {
             <FontAwesomeIcon icon={['fab', 'github']} size="2x" color={colors.white} />
             <span className="visible-hidden">GitHub</span>
           </a>
-          <a href="https://soundcloud.com/scruby_doo" target="_blank" rel="noopener noreferrer">
+          <a href="https://soundcloud.com/flowmosapien" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'soundcloud']} size="2x" color={colors.white} />
             <span className="visible-hidden">SoundCloud</span>
           </a>
