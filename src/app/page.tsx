@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Homepage = () => {
   return (
-    <div className="page-root pt-[80px] flex items-center justify-center flex-col">
+    <div className="page-root pt-[80px] pb-12 flex items-center justify-center flex-col">
       <div
         className="min-h-[500px] w-full bg-[center_bottom] bg-no-repeat bg-cover relative mb-12"
         style={{ backgroundImage: `url(/images/movement.jpg)` }}
