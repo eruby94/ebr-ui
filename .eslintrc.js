@@ -5,11 +5,11 @@ module.exports = {
     node: true,
   },
   extends: [
+    'next/core-web-vitals',
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -22,20 +22,15 @@ module.exports = {
   },
   plugins: ['react', 'jsx-a11y'],
   rules: {
-    'jsx-a11y/anchor-is-valid': [
+    'react/no-unknown-property': [
       2,
       {
-        components: ['Link'],
-        specialLink: ['to'],
-        aspects: ['noHref', 'invalidHref', 'preferButton'],
+        ignore: ['jsx', 'global'],
       },
     ],
-    'react/require-default-props': [
-      2,
-      {
-        forbidDefaultForRequired: true,
-      },
-    ],
+    'react/react-in-jsx-scope': 'off',
+    'jsx-a11y/media-has-caption': 'off',
+    'react/prop-types': 0,
   },
   settings: {
     react: {

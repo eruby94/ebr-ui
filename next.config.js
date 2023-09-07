@@ -1,6 +1,11 @@
-module.exports = {
-  env: {
-    contentfulKey: process.env.CONTENTFUL_API_KEY,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
   },
   trailingSlash: true,
+  poweredByHeader: false,
 }
+
+module.exports = nextConfig
