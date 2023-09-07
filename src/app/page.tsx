@@ -19,7 +19,7 @@ const Homepage = () => {
           />
         </div>
       </div>
-      <p className="mb-12">A creatively-oriented technologist based in Detroit.</p>
+      <p className="mb-12 px-12 text-center">A creatively-oriented technologist based in Detroit.</p>
       <div className="flex items-center">
         <FontAwesomeIcon className="text-red w-[50px] h-auto" icon={icon({ name: 'envelopes-bulk' })} />
         <a className="ml-6 text-xl" href="mailto:evanruby94@gmail.com">
