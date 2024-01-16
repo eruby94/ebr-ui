@@ -13,7 +13,7 @@ const NavHeader = (): JSX.Element => {
       <div className="left">
         <div className="social-icons">
           <a
-            className="flex items-center justify-center"
+            className="flex items-center justify-center mr-8"
             href="https://github.com/eruby94"
             target="_blank"
             rel="noopener noreferrer"
@@ -21,7 +21,7 @@ const NavHeader = (): JSX.Element => {
             <FontAwesomeIcon className="text-white w-[40px] h-auto" icon={icon({ name: 'github', style: 'brands' })} />
             <span className="visible-hidden">GitHub</span>
           </a>
-          <a
+          {/* <a
             className="flex items-center justify-center mx-8"
             href="https://soundcloud.com/flowmosapien"
             target="_blank"
@@ -32,7 +32,7 @@ const NavHeader = (): JSX.Element => {
               icon={icon({ name: 'soundcloud', style: 'brands' })}
             />
             <span className="visible-hidden">SoundCloud</span>
-          </a>
+          </a> */}
           <a
             className="flex items-center justify-center"
             href="https://www.linkedin.com/in/evanruby/"
